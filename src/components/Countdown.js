@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { Text, View, StyleSheet } from 'react-native';
-import { fontSizes, paddingSizes, marginSizes } from '../utils/sizes';
-import { colors } from '../utils/colors';
+// Initial
+import React, { useState, useEffect } from "react";
+import { Text, View, StyleSheet } from "react-native";
+import { fontSizes, paddingSizes, marginSizes } from "../utils/sizes";
+import { colors } from "../utils/colors";
 
 const minutesToMillis = (min) => min * 60000;
 
@@ -58,11 +59,11 @@ export const Countdown = ({ minutes = 1, isPaused, onProgress, onEnd }) => {
 const styles = StyleSheet.create({
   text: {
     fontSize: fontSizes.xxxl,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     color: colors.white,
     paddingTop: paddingSizes.lg,
-    backgroundColor: 'rgba(94,132,226,0.3)',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "rgba(94,132,226,0.3)",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
