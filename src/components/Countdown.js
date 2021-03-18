@@ -1,12 +1,9 @@
-// Countdown Component Test 2
 import React, { useState, useEffect } from "react";
 import { Text, View, StyleSheet } from "react-native";
 import { fontSizes, paddingSizes, marginSizes } from "../utils/sizes";
 import { colors } from "../utils/colors";
 
 const minutesToMillis = (min) => min * 60000;
-
-console.log("test2");
 
 const formatTime = (time) => {
   return time < 10 ? `0${time}` : time;
