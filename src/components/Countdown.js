@@ -6,6 +6,8 @@ import { colors } from "../utils/colors";
 
 const minutesToMillis = (min) => min * 60000;
 
+console.log("test");
+
 const formatTime = (time) => {
   return time < 10 ? `0${time}` : time;
 };
